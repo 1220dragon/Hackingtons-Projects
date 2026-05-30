@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  margin: 20px;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointerl;
+}
+
+.game {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  cursor: crosshair;
+  border: 5px solid black;
+}
+
+#target {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: skyblue;
+  position: absolute;
+  z-index: 1;
+}
+
+#background {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 24px;
+}

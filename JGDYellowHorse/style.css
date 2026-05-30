@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#timer {
+  text-align: center;
+  z-index: 4095902495;
+  color: black;
+}
+
+#canvas {
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid blue;
+  background: url("https://m.media-amazon.com/images/M/MV5BNzI4YTdiMWQtNzM4Zi00ODk4LWE2YTUtNTkwYjZjYzgyZjJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg");
+  background-size: cover;
+}

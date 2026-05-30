@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Aimtrainer</h1>
+    <h2>
+      Woah look an average aim trainer! Is what I would say if this was
+      average.... When playing a shooter game you won't be able to see your
+      cursor very well, so now while playing you can't see it at
+      ALL!...!!!...!!! Go play the game. And since enemies will be at different
+      positions, thus different sizes to you, it randomly changes size!
+    </h2>
+    <h2 id="timer">30</h2>
+    <button onclick="startGame()">Click to start(duh)</button>
+
+    <div class="game">
+      <div id="target" onmousedown="targetClick()"></div>
+      <div id="background" onmousedown="fail()"></div>
+      <div id="score">0</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
