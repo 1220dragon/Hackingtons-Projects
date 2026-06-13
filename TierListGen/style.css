@@ -1,0 +1,104 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(27, 27, 27);
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 15px;
+}
+
+button {
+  background-color: #41b331;
+
+  color: #f5f5f5;
+
+  padding: 15px;
+
+  border-radius: 8px;
+}
+
+.tier {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  background-color: rgb(39, 39, 39);
+  margin: 10px 0;
+}
+
+.tier .title {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.tier div {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  color: white;
+}
+
+p {
+  font-size: 12px;
+}
+
+.tier img {
+  max-width: 120px;
+  max-height: 100px;
+}
+
+#S .title {
+  background-color: rgb(236, 111, 111);
+}
+
+#PEAK .title {
+  background-color: rgb(84, 172, 88);
+  font-size: 16px;
+}
+
+#A .title {
+  background-color: rgb(236, 178, 111);
+}
+
+#B .title {
+  background-color: rgb(236, 234, 111);
+}
+
+#C .title {
+  background-color: rgb(121, 236, 111);
+}
+
+#D .title {
+  background-color: rgb(111, 236, 219);
+}
+
+#F .title {
+  background-color: rgb(155, 111, 236);
+}
+
+#Z .title {
+  background-color: rgb(111, 236, 173);
+}
+
+#UNKNOWN .title {
+  background-color: rgb(194, 228, 211);
+}
