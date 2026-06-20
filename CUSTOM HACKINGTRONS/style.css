@@ -1,0 +1,72 @@
+body {
+  --colorG1: red !important;
+  --backDark: #a06ec5 !important;
+  --colorG2: #5b0000 !important;
+}
+
+.userStats {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png") !important;
+  background-color: rgba(255, 0, 0, 0.158);
+}
+
+.home-season-event {
+  background: color-mix(in srgb, var(--colorG2), transparent 50%) !important;
+}
+
+.home-season-event__day {
+  background: var(--colorG1) !important;
+}
+
+.home-season-event--goat .home-season-event__name {
+  color: var(--colorG2) !important;
+}
+
+.bestofSection .bestofProfileLink span {
+  color: var(--colorG1) !important;
+}
+
+.teamConsole {
+  background-image:
+    linear-gradient(0deg, var(--colorG2) 45%, transparent 0),
+    radial-gradient(circle at center, #21372d 0, var(--colorG1) 60%) !important;
+}
+
+.home-season-label__title {
+  color: var(--colorG1) !important;
+}
+
+.hackingtonsPro-link {
+  border: 1px solid var(--colorG1) !important;
+}
+
+.hackingtonsPro-link:hover {
+  border: 1px solid var(--colorG2) !important;
+  background: var(--colorG2) !important;
+  box-shadow: 0 2px 16px var(--colorG2) !important;
+}
+
+#layoutContainer {
+  background-color: color-mix(
+    in srgb,
+    var(--colorG2),
+    transparent 50%
+  ) !important;
+}
+
+.startPage {
+  background: color-mix(in srgb, var(--colorG2), transparent 50%) !important;
+}
+
+.dashboard {
+  background: radial-gradient(
+    color-mix(in srgb, var(--colorG2), transparent 50%),
+    #333
+  ) !important;
+}
+
+.messagesHomepage {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/89/HD_transparent_picture.png") !important;
+  background-color: var(
+    color-mix(in srgb, var(--colorG1), transparent 50%)
+  ) !important;
+}

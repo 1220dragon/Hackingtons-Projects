@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(29, 85, 59);
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.untyped:first-letter {
+  text-decoration: underline;
+}
+
+#text {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: white;
+  padding: 60px;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 24px;
+  background-color: rgb(252, 252, 252);
+}
+
+#wpm {
+  font-size: 30px;
+}
