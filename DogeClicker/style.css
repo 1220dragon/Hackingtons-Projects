@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  background-color: rgb(31, 7, 7);
+}
+
+canvas {
+  border: 10px rgb(34, 11, 11) solid;
+  background: radial-gradient(black, rgb(31, 7, 7), black);
+}
