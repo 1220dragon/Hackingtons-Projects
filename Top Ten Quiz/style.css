@@ -1,0 +1,32 @@
+*,
+body,
+html {
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  padding: 0;
+  color: rgb(36, 61, 55);
+}
+
+body {
+  background: #ebebeb;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid rgb(36, 61, 55);
+  padding: 5px;
+  transition: padding-top 0.1s linear;
+}
+
+input:focus {
+  padding-top: 10px;
+  outline: none;
+  background: white;
+}

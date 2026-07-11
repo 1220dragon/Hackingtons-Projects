@@ -1,0 +1,5 @@
+canvas {
+  border: 1px black solid;
+  background-image: url("ocean.jpg");
+  background-size: cover;
+}

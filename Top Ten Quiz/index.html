@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz i guess</title>
+  </head>
+  <body>
+    <h1>Top Ten Video Games By Sales</h1>
+    <h2 id="directions">
+      Try to name the top ten games by sales, Capatalize the letters in each
+      word of your answer. Good luck!
+    </h2>
+
+    <input
+      type="text"
+      id="answerInput"
+      autocomplete="off"
+      onchange="submitAnswer(this)"
+    />
+
+    <div class="gameContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

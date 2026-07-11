@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Typer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>type the COLOR</h1>
+    <p>
+      Instructions: Type start to begin. As fast as you can, type the COLOR of
+      each word and then hit enter.
+
+      <div id="words">&nbsp; </div>
+
+      <input type="text" onchange="checkColor(this)" autocomplete="off" id="thingiguess">
+    </p>
+
+    <h1 id="youWin">You won!</h1>
+    <h1 id="highScore">You don't have a highscore :/</h1>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript clicker</title>
+  </head>
+  <body>
+    <h1>Javascript Clicker</h1>
+
+    <h2 id="CurrentScoreCount">0</h2>
+    <button onclick="increaseClicks()">Click</button>
+    <button onclick="save()">Save All</button>
+
+    <button id="upgrade1" onclick="upgradeClickPower()">
+      Click Power Upgrade, costs: 5
+    </button>
+    <button id="upgrade2" onclick="upgradeAutoClick()">
+      AutoClick Upgrade, costs: 15
+    </button>
+    <button id="reset" onclick="reset()">reset(not Highscore)</button>
+    <button id="reset" onclick="trueReset()">True reset</button>
+
+    <h2 id="highScoreText">High Score</h2>
+    <script src="script.js"></script>
+  </body>
+</html>
