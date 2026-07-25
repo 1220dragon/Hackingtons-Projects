@@ -1,0 +1,78 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(11, 24, 13);
+}
+
+h1,
+h2 {
+  margin: 20px;
+  color: white;
+}
+
+.genre {
+  background: #1c2b2e;
+  padding: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.show {
+  padding: 10px;
+  margin: 10px 20px;
+  width: 200px;
+  height: 320px;
+  border-radius: 4px;
+  border: 2px solid grey;
+  background-position: center;
+  background-size: cover;
+}
+
+.modal {
+  width: 600px;
+  width: 700px;
+  background-color: #1a2724;
+  border: 10px solid #6aa396;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-align: center;
+  background-color: #6aa396;
+}
+
+.modal img {
+  width: 50%;
+}
+
+iframe {
+  width: 500px;
+  height: 500px;
+}
+
+.modal h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.modal div {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
