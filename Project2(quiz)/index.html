@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trivia</title>
+  </head>
+  <body>
+    <h1>Trivia</h1>
+
+    <select name="categories" id="categories">
+      <option value="15">Video Games</option>
+      <option value="18">Science</option>
+      <option value="21">Sports</option>
+      <option value="27">Animals</option>
+      <option value="22">Geography</option>
+    </select>
+
+    <select name="difficulty" id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+
+    <button>Start Quiz</button>
+
+    <div id="quiz"></div>
+
+    <h2 id="correct"></h2>
+    <div id="correctAnswers"></div>
+
+    <script type="module" src="script.js"></script>
+    <script type="module" src="helpers.js"></script>
+  </body>
+</html>
